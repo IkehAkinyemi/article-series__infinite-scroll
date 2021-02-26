@@ -33,6 +33,7 @@ function randomDecision(varaibleItem) {
   return Math.floor(Math.random() * varaibleItem);
 }
 
+// checks if the scroll is the end of the screen
 function dynamicPostUpdate() {
   let contentHeight = mainContainer.offsetHeight;
   let verticalOffset = window.pageYOffset;
@@ -51,6 +52,7 @@ function dynamicPostUpdate() {
 
 window.addEventListener("scroll", dynamicPostUpdate);
 
+//continous creating and adding content to the mainContainer
 function createMoreContents() {
   let postsPerSeconds = randomDecision(5);
 
