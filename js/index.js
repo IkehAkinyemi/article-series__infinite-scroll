@@ -26,10 +26,6 @@ const imageData = [
 
 //UI variables
 let mainContainer = document.querySelector(".container");
-let firstUI = document.querySelector(".first");
-let secondUI = document.querySelector(".second");
-let thirdUI = document.querySelector(".third");
-let text = document.querySelector(".text");
 let footerUI = document.querySelector(".loading");
 
 //Random decision making function
