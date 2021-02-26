@@ -1,3 +1,4 @@
+//images to load to create an infinite scroll
 const imageData = [
   {
     id: "first",
