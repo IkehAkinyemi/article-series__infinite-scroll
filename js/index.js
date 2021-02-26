@@ -60,7 +60,7 @@ function createMoreContents() {
 
     const imgContainer = document.createElement("div");
     imgContainer.className = "img-container";
-    imgContainer.innerHTML = `<img src="../images/${
+    imgContainer.innerHTML = `<img src="./images/${
       imageData[randomDecision(imageData.length)].imageSrc
     }">`;
 
