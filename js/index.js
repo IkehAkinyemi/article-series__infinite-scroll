@@ -2,26 +2,26 @@
 const imageData = [
   {
     id: "first",
-    imageSrc: "../images/arctic-guesthouse-igloos-fEw9RsoDEq4-unsplash.jpg",
+    imageSrc: "arctic-guesthouse-igloos-fEw9RsoDEq4-unsplash.jpg",
   },
 
   {
     id: "second",
-    imageSrc: "../images/benigno-hoyuela-Z5PknsAvHkk-unsplash.jpg",
+    imageSrc: "benigno-hoyuela-Z5PknsAvHkk-unsplash.jpg",
   },
 
   {
     id: "third",
-    imageSrc: "../images/benjamin-massello-twX-cWl-8OM-unsplash.jpg",
+    imageSrc: "benjamin-massello-twX-cWl-8OM-unsplash.jpg",
   },
 
   {
     id: "fourth",
-    imageSrc: "../images/chris-ainsworth-jUR9ZFNqL-w-unsplash.jpg",
+    imageSrc: "chris-ainsworth-jUR9ZFNqL-w-unsplash.jpg",
   },
 
-  { id: "fifth", imageSrc: "../images/siri-louis-Qxr_U0KpdpA-unsplash.jpg" },
-  { id: "sixth", imageSrc: "../images/josh-rocklage-MM5-DtrFLn0-unsplash.jpg" },
+  { id: "fifth", imageSrc: "siri-louis-Qxr_U0KpdpA-unsplash.jpg" },
+  { id: "sixth", imageSrc: "josh-rocklage-MM5-DtrFLn0-unsplash.jpg" },
 ];
 
 //UI variables
@@ -60,7 +60,7 @@ function createMoreContents() {
 
     const imgContainer = document.createElement("div");
     imgContainer.className = "img-container";
-    imgContainer.innerHTML = `<img src="${
+    imgContainer.innerHTML = `<img src="../images/${
       imageData[randomDecision(imageData.length)].imageSrc
     }">`;
 
