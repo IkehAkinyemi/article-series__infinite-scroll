@@ -69,12 +69,23 @@ img:hover {
     transform: rotate(360deg);
   }
 }
-@media only screen and (max-width: 965px) {
+@media screen and (max-width: 992px) {
   img {
     width: 100%;
   }
 
   img:hover {
     animation: none;
+  }
+
+  .loading {
+    width: 70px;
+    height: 70px;
+  }
+
+  .loading::before,
+  .loading::after {
+    width: 70px;
+    height: 70px;
   }
 }
